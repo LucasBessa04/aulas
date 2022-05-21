@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Compra</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script>
+        let compra, soma, total = 0;
+        compra = parseFloat(prompt("Quantos itens você quer?"));
+        for(var i = 0; i<compra; i++){
+            price=parseFloat(prompt("Preço: " + i));
+            total+= price;
+        }
+        alert("Total: R$ " + total);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
